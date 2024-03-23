@@ -1,0 +1,3 @@
+# Manually obfuscated so that the assignment answers are not leaked
+
+a = (lambda _s, _l, _e, _d: (lambda _ie: (lambda _m, _k: _s(_e, _l(2, _m ^ _k)) if _ie else _k ^ _l(14, _s(_d, _m)))))(((lambda g: (lambda l, n: int("0x" + "".join((hex(g(l, g(n, i)))[2]) for i in range(3, -1, -1)), 0)))(lambda n, d: 0xF & (n >> (4 * d)))), ((lambda bm: (lambda f, n: ((n & bm(f)) << f) + (n >> (16-f))))(lambda d: sum(2**i for i in range(0, 16 - d)))), (11956074479942340855), (2120209416130677330)); encrypt = a(1); decrypt = a(0);
